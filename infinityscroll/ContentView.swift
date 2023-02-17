@@ -8,19 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+	let carouselItems = CarouselList()
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+	init() {
+		carouselItems.append(CarouselItem(title: "1 Item", color: Color.blue))
+		carouselItems.append(CarouselItem(title: "2 Item", color: Color.orange))
+		carouselItems.append(CarouselItem(title: "3 Item", color: Color.red))
+		carouselItems.append(CarouselItem(title: "4 Item", color: Color.gray))
+		carouselItems.append(CarouselItem(title: "5 Item", color: Color.green))
+		carouselItems.head?.previous = carouselItems.tail
+		carouselItems.tail?.next = carouselItems.head
+	}
+
+	var body: some View {
+		CarouselView(items: carouselItems)
+	}
 }

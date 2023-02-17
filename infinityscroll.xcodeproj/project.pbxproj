@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77AB9F73299E8C1E006959C1 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AB9F72299E8C1E006959C1 /* CarouselView.swift */; };
+		77AB9F75299E94EC006959C1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AB9F74299E94EC006959C1 /* Model.swift */; };
 		77D44381299D51B500315C7D /* infinityscrollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D44380299D51B500315C7D /* infinityscrollApp.swift */; };
 		77D44383299D51B500315C7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D44382299D51B500315C7D /* ContentView.swift */; };
 		77D44385299D51B600315C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D44384299D51B600315C7D /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77AB9F72299E8C1E006959C1 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		77AB9F74299E94EC006959C1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		77D4437D299D51B500315C7D /* infinityscroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = infinityscroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D44380299D51B500315C7D /* infinityscrollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infinityscrollApp.swift; sourceTree = "<group>"; };
 		77D44382299D51B500315C7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				77D44380299D51B500315C7D /* infinityscrollApp.swift */,
+				77AB9F72299E8C1E006959C1 /* CarouselView.swift */,
 				77D44382299D51B500315C7D /* ContentView.swift */,
+				77AB9F74299E94EC006959C1 /* Model.swift */,
 				77D44384299D51B600315C7D /* Assets.xcassets */,
 				77D44386299D51B600315C7D /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				77D44383299D51B500315C7D /* ContentView.swift in Sources */,
+				77AB9F73299E8C1E006959C1 /* CarouselView.swift in Sources */,
 				77D44381299D51B500315C7D /* infinityscrollApp.swift in Sources */,
+				77AB9F75299E94EC006959C1 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
